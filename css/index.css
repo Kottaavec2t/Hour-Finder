@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(15, 180, 15);
+}
+
+/* header */
+
+div.header {
+    text-align: center;
+    background-color: green;
+}
+div.header ul {
+    font-family: Arial;
+    display: inline-block;
+    color: black;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* map */
+
+#map {
+    margin-top: 0.5%;
+    height: 95%; /* Increased height for better visibility */
+    width: 100%;
+    border: 1px solid black; /* Add a border to confirm visibility */
+}
+
+/* time-label */
+
+#time-label {
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 12px;
+}
