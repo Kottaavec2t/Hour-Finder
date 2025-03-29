@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             marker.setStyle(new ol.style.Style({
                 image: new ol.style.Circle({
-                    radius: 6,
+                    radius: 5,
                     fill: new ol.style.Fill({ color: 'red' }), // Fill color
                     stroke: new ol.style.Stroke({ color: 'black', width: 2 }) // Border color and width
                 })

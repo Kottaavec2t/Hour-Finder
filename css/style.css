@@ -1,17 +1,21 @@
 body {
     background-color: rgb(15, 180, 15);
+    padding: 0%;
+    margin: 0%;
 }
 
 /* header */
 
-div.header {
-    text-align: center;
+header {
+    padding: 1vh;
     background-color: green;
 }
-div.header ul {
-    font-family: Arial;
-    display: inline-block;
+header ul {
+    display: flex;
+    justify-content: space-evenly;
     color: black;
+    font-size: 2em;
+    list-style: none;
 }
 a {
     text-decoration: none;
